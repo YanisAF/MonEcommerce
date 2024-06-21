@@ -1,0 +1,7 @@
+/admin
+
+#! Variable d'environnement
+.env
+
+#! Dépendances
+/vendor/
