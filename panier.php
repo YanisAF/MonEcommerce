@@ -1,5 +1,7 @@
 <?php
 require_once("inc/init.inc.php");
+$title = " | Panier";
+
 //--------------------------------- TRAITEMENTS PHP ---------------------------------//
 //--- AJOUT PANIER ---//
 if (isset($_POST['ajout_panier'])) {   // debug($_POST);
