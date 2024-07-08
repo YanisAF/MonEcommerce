@@ -1,5 +1,5 @@
-<?php 
-require_once("./inc/init.inc.php"); 
+<?php require_once("inc/init.inc.php"); 
+$title = " | Profil";
 
 if(!internauteEstConnecte()) header("location:connexion.php");
 
@@ -11,6 +11,6 @@ $contenu .= '<p> votre code postal est: ' .$_SESSION['utilisateur']['code_postal
 $contenu .= '<p> votre adresse est: ' .$_SESSION['utilisateur']['adresse'] .'</p></div></div><br><br>';
 ?>
 
-<?php require_once("./inc/haut.inc.php"); 
+<?php require_once("inc/haut.inc.php"); 
 echo $contenu;?>
-<?php require_once("./inc/bas.inc.php"); ?>
+<?php require_once("inc/bas.inc.php"); ?>

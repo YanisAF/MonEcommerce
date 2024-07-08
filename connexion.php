@@ -1,4 +1,5 @@
-<?php require_once("./inc/init.inc.php"); 
+<?php require_once("inc/init.inc.php"); 
+$title = " | Connexion";
 
 if(isset($_GET['action']) && $_GET['action'] =="deconnexion") {
     session_destroy();
