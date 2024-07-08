@@ -1,4 +1,8 @@
 <?php
+
+// ------ TITRE PAGES
+$title = "";
+
 //* configuration phpdotenv
 require __DIR__ . '/../vendor/autoload.php';
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ .'/../')->load();

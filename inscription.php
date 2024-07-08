@@ -1,4 +1,5 @@
 <?php require_once("inc/init.inc.php");
+$title = " | Inscription";
 //--------------------------------- TRAITEMENTS PHP ---------------------------------//
 if ($_POST) {
     // debug($_POST);
